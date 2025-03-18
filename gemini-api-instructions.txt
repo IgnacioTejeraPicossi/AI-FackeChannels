@@ -1,0 +1,26 @@
+//The Gemini SDK lets you collect multiple rounds of questions and responses, allowing users to step incrementally toward answers or get //help with multipart problems. This SDK feature provides an interface to keep track of conversations history, but behind the scenes uses //the same generateContent method to create the response.
+
+The following code example shows a basic chat implementation:
+//Make sure to include these imports:
+//import { GoogleGenerativeAI } from "@google/generative-ai";
+const genAI = new GoogleGenerativeAI("GEMINI_API_KEY");
+const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+const chat = model.startChat({
+  history: [
+    {
+      role: "user",
+      parts: [{ text: "Hello" }],
+    },
+    {
+      role: "model",
+      parts: [{ text: "Great to meet you. What would you like to know?" }],
+    },
+  ],
+});
+
+let result = await chat.sendMessage("I have 2 dogs in my house.");
+console.log(result.response.text());
+let result2 = await chat.sendMessage("How many paws are in my house?");
+console.log(result2.response.text());
+
+*Important API key from google to use in model:"gemini-2.0-flash":AIzaSyA1UDOPoKbQSWXCEki1slq4fZGIMA9MyyI
