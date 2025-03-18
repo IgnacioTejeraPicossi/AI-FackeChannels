@@ -23,4 +23,3 @@ console.log(result.response.text());
 let result2 = await chat.sendMessage("How many paws are in my house?");
 console.log(result2.response.text());
 
-*Important API key from google to use in model:"gemini-2.0-flash":AIzaSyA1UDOPoKbQSWXCEki1slq4fZGIMA9MyyI
