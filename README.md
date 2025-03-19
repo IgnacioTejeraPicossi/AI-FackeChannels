@@ -82,3 +82,4 @@ MIT
 
 - Google Gemini API
 - Telegram Bot API 
+- UGR 

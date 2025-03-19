@@ -1,0 +1,3 @@
+# .gitignore
+.env
+gemini-api-instructions.txt
