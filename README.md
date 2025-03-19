@@ -41,7 +41,7 @@ This application helps address these challenges by combining AI analysis with sc
    npm start
    ```
 
-5. Open your browser and navigate to `http://localhost:3000`
+5. Open your browser and navigate to `http://localhost:8080`
 
 ## Usage
 
