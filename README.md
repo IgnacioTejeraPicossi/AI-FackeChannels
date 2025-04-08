@@ -1,6 +1,6 @@
 # Telegram Fake Channel Detector
 
-This application analyzes Telegram channels to detect potential fake content and misinformation, with a focus on scientific communication. It uses Google's Gemini 2.0 Flash API to provide intelligent analysis of channel content, helping users identify potentially misleading or fraudulent scientific channels.
+This application analyzes Telegram channels to detect potential fake content and misinformation, with a focus on scientific communication. It uses Google's Gemini 2.0 Flash API to provide intelligent analysis of channel content, helping users identify potentially misleading or fraudulent scientific channels (I use cursor in this project not Visual Studio Code).
 
 ## Features
 
